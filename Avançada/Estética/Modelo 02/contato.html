@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Fale Conosco | Ateliê</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container nav-flex">
+    <h1 class="logo">Ateliê</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="contato.html" class="active">Fale Conosco</a>
+      <a href="promocao.html">Promoção do Mês</a>
+    </nav>
+  </div>
+</header>
+
+<section class="container contato">
+  <h2>Fale Conosco</h2>
+  <p>Entre em contato ou venha nos visitar. Será um prazer te atender 💬</p>
+
+  <div class="contato-grid">
+
+    <!-- Coluna 1 - Formulário -->
+    <div class="contato-box">
+      <h3>Envie uma mensagem</h3>
+      <form>
+        <input type="text" placeholder="Seu nome" required>
+        <input type="email" placeholder="Seu e-mail" required>
+        <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </div>
+
+    <!-- Coluna 2 - Localização -->
+    <div class="contato-box">
+      <h3>Nossa Localização</h3>
+
+      <!-- 🔴 AQUI você cola o iframe do Google Maps -->
+      <div class="mapa">
+        <!-- Exemplo:
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!..." 
+          width="100%" 
+          height="250" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        -->
+        <p style="opacity:.6;">Mapa será exibido aqui</p>
+      </div>
+
+      <p>📍 Rua Exemplo, 123 – Centro<br>
+      📞 (49) 99999-9999</p>
+    </div>
+
+  </div>
+
+  <!-- Redes sociais -->
+  <div class="redes">
+    <h3>Nos siga nas redes</h3>
+    <div class="social-links">
+      <a href="#" target="_blank" class="social whatsapp">WhatsApp</a>
+      <a href="#" target="_blank" class="social instagram">Instagram</a>
+      <a href="#" target="_blank" class="social facebook">Facebook</a>
+      <a href="#" target="_blank" class="social youtube">YouTube</a>
+      <a href="#" target="_blank" class="social tiktok">TikTok</a>
+    </div>
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2026 Ateliê – Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
