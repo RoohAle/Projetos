@@ -1,0 +1,35 @@
+<form name="contato" method="POST" data-netlify="true">
+  <input type="hidden" name="form-name" value="contato">
+
+  <div class="input-group">
+    <input type="text" name="nome" placeholder="Seu nome" required>
+    <input type="email" name="email" placeholder="Seu e-mail" required>
+  </div>
+
+  <textarea name="mensagem" placeholder="Sua mensagem" rows="5" required></textarea>
+  <button type="submit" class="btn">Enviar Mensagem</button>
+</form>
+
+
+<!-- Onde ver as mensagens?
+
+Depois de publicar no Netlify:
+
+Entre no painel do site
+
+Vá em Forms
+
+Lá vão aparecer os envios de formulário
+
+Você pode ativar notificação por e-mail nas configurações -->
+
+
+
+<!-- Proteção Basica de Span
+<form name="contato" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="contato">
+  <p style="display:none;">
+    <label>Não preencha: <input name="bot-field"></label>
+  </p>
+  ...
+</form> -->
